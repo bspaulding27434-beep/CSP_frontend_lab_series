@@ -4,14 +4,18 @@
    =========================================================== */
 
 // TODO 1: Print your full name with console.log()
-
-
+console.log("Brandon Spaulding")
 // TODO 2: Declare variable favoriteFood, assign "Steak", then reassign "Pizza"
-
-
+    let favoriteFood = "Steak"
+    favoriteFood= "Pizza"
 // TODO 3: Create variable mystery, assign a string, then a number, print type each time
+   let mystery;
 
+   mystery= "Hi, world!"
+   console.log(mystery);
+   console.log(typeof mystery);
 
+   mystery
 // TODO 4: Declare const schoolName, try to reassign
 
 
@@ -28,3 +32,4 @@
    2. What challenges did you encounter, and how did you solve them?
    3. Where else could this programming concept be useful?
    =========================================================== */
+ 
