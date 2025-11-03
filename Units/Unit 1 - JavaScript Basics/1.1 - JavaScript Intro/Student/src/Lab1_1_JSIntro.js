@@ -27,7 +27,7 @@ const schoolName = ("Christopher Columbus High School")
 
 let myFood; "pizza";
 let mycolor; "red";
-let myName; "Brandon spaulding";
+let myName; "Brandon Spaulding";
 
 console.log(myFood)
 console.log(myColor)

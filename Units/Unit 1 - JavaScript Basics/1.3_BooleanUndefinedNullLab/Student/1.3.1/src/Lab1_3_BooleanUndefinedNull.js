@@ -5,7 +5,12 @@
 // TODO 1: Booleans
 // - Create isStudent = true, hasLicense = false
 // - Print results of true || false, true && false, !true
+isStudent = true;
+hasLicense = false
+isStudent || hasLicense //-> isStudent
 
+true || false //-> true;
+true && false //-> false
 // TODO 2: Short-circuit evaluation
 // - Print result of false && (5 > 2)
 // - Print result of true || (2 > 5)
