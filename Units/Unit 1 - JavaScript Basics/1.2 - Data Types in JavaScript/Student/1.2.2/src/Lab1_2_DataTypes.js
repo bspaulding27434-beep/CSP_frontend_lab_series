@@ -3,7 +3,7 @@
    Primitive types, typeof, and basic conversions.
    =========================================================== */
 
-<<<<<<< HEAD
+ HEAD
 // TODO 1: Declare one variable for each primitive type discussed in the PDF.
 // string, number, boolean, null, undefined
 let movie = "Bronx Tails"
@@ -32,7 +32,7 @@ console.log(typeof String(4))
 console.log(isNaN("hello"))
 console.log("4")
 // TODO 6: Template literals: print a line that mixes text + a variable value.
-=======
+
 // 1️⃣ Primitive Types
 // Declare one variable for each primitive type: string, number, boolean, null, undefined.
 // Print each variable and its type using typeof.

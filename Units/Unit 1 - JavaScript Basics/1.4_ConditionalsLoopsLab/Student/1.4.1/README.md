@@ -1,13 +1,13 @@
 # Lab 004 – Conditionals and Loops
 
 ## 🎯 Learning Goals
-- Understand what statements are and why they’re needed.
+- 
+---Understand what statements are and why they’re needed.
 - Use `if`, `else if`, and `else` statements.
 - Identify when to use `switch` instead of if..else.
 - Use loops (`while`, `do..while`, `for`) for repetition.
 - Apply `break` and `continue` statements inside loops.
 
----
 
 ## 📖 Pre-Lab Reading
 - Open the included PDF: `004_JS _ Conditionals and Loops.pdf`
