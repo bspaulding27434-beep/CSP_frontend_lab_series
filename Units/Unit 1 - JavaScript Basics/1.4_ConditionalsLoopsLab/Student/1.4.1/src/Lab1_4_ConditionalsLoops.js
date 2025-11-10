@@ -4,21 +4,27 @@
 
 // TODO 1: if..else with age discounts
 let age = 15;
-if ("teen discount");{
-    i<=16;
-}
-elseif ("senior discount");{
 
-
-    i>=65;
+if ( age <= 16){
+    console.log("Teen discount");
+} elseif (age >= 65);{
+   console.log("Senior Discount");
+} {
+    console.log("No Discount");
 }
 
  ifelse ("no discount");
+{}
+ function breakfast(){
+    console.log("Good morning ! what woud you like to eatafor breakfast?")
+ }
 
 
 // TODO 2: Nested if with two numbers
 let number1 = 15;
 let number2 = 10;
+
+if(typeof number1 === 'number' && typeof number2 === 'number') {
 
 if (number1 = number2) {
     console.log("Numbers are equal");
@@ -26,6 +32,7 @@ if (number1 = number2) {
     console.log("Number 1 is bigger");
 } else {
     console.log("Number 1 is smaller");
+}
 }
 // TODO 3: Switch statement for language greeting
 
@@ -45,6 +52,44 @@ switch (language) {
         console.log("Hello, world!"); 
         break;
 }
+
+//TECH
+    //APPLE
+    //NVDA
+    //META
+
+    //Healthcare
+    //UHC
+    //PFE
+    //CVS
+
+
+    //OIL
+    //SHEL - SHELL
+    //CVX - CHEVERON
+
+    //Energy
+    
+    let ticker = "APPL"
+    switch(ticker){
+        case "AAPL":
+        case"NVDA":
+        case"META":
+            console.log(`Your stock ${ticker} is in the Tech sector`);
+            break;
+        case "UHC":
+        case "PFE":
+        case "CVS":
+            console.log(`Your stock ${ticker} is in the Healthcare sector`);
+            break;
+        case "SHEL":
+        case "CVX":
+            console.log(`Your stock ${ticker} is in the Energy sector`);
+            break;
+        default:
+            console.log(`Your stock ${ticker} is in another sector`);
+            break;
+    }
 // TODO 4: While loop (1 to 10)
 let count = 1; 
 do {
@@ -55,13 +100,30 @@ do {
     count++;
 
 } while (count <= 5) 
+
+   
+
+    let counter = 1
+    while(counter<11) {
+        console.log("Counter: " + counter);
+        counter++; // Increments by 1
+    }
+
+console.log("--------------");
+let counter1 = 10;
+    while (counter2>0) {
+        console.log("Counter2: " + counter2);
+        counter2--; // Decrements by 1
+    }
+    let counter2 = 10;
+    while (counter2>0) {}
 // TODO 5: Do..while loop (1 to 5)
-let i = 1;  
+let counter3 = 1;  
 
 do {
      if (count % 10 == 0) {
-         console.log("Count: ", count)
-         count++;
+         console.log("Count: ", counter3)
+         counter3++;
      } else {
         count++;
      }
@@ -71,12 +133,12 @@ do {
       
 // TODO 6: For loop (1 to 20, print "ten" at 10 and "twenty" at 20)
 for (let i = 1; i <= 20; i++) {
-  if (i === 10) {
-   console.log("ten");
-  } else if (i === 20) {
-    console.log("twenty");
+  if (i == 10) {
+   console.log("TEN");
+  } else if (i == 20) {
+    console.log("TWENTY");
   } else {
-     console.log(i);
+     console.log("Value",i);
   }
 } 
 
@@ -105,7 +167,7 @@ console.log("--- Even/Odd Loop (Skipping Multiples of 3) ---");
 
 for (let x = 1; x <= 20; x++) {
     
-    if (x % 3 === 0) {
+    if (x % 2 === 0) {
         continue; 
     }
 }
